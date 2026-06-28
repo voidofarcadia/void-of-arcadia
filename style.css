@@ -1170,3 +1170,90 @@ footer {
     height: 300px;
   }
 }
+.age-gate{
+    position:fixed;
+    inset:0;
+    z-index:9999;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:rgba(5,5,7,.92);
+    backdrop-filter:blur(12px);
+}
+
+.age-box{
+    width:min(90%,420px);
+
+    padding:42px;
+
+    border-radius:24px;
+
+    background:#0b0910;
+
+    border:1px solid rgba(221,214,255,.25);
+
+    text-align:center;
+
+    box-shadow:
+    0 0 40px rgba(214,162,255,.25);
+}
+
+.age-box h2{
+    margin:0 0 18px;
+    font-family:"Cormorant Garamond",serif;
+    font-size:54px;
+    color:#ddd6ff;
+}
+
+.age-box p{
+    color:#d4cfdf;
+    line-height:1.7;
+}
+
+.age-small{
+    font-size:.9rem;
+    opacity:.7;
+}
+
+.age-buttons{
+    margin-top:32px;
+
+    display:flex;
+    gap:14px;
+}
+
+.age-buttons button,
+.age-buttons a{
+
+    flex:1;
+
+    padding:14px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    letter-spacing:.08em;
+
+    transition:.25s;
+}
+
+.age-buttons button{
+
+    background:#d6b4ff;
+    color:#050507;
+    border:none;
+}
+
+.age-buttons a{
+
+    color:white;
+
+    border:1px solid rgba(255,255,255,.2);
+}
