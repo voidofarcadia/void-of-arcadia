@@ -5,22 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Void of Arcadia</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
+  <!-- AGE GATE -->
   <div id="age-gate" class="age-gate">
     <div class="age-box">
       <h2>18+ ONLY</h2>
 
-      <p>
-        This website contains content intended exclusively for adults.
-      </p>
+      <p>This website contains content intended exclusively for adults.</p>
 
       <p class="age-small">
         By entering, you confirm that you are at least 18 years old.
@@ -28,18 +26,19 @@
 
       <div class="age-buttons">
         <button id="enter-site" type="button">I am 18+</button>
-        <a href="https://google.com">Leave</a>
+        <a href="https://google.com" rel="noopener noreferrer">Leave</a>
       </div>
     </div>
   </div>
 
+  <!-- TOP TICKER -->
   <div class="top-ticker">
     ✦ VOID OF ARCADIA ✦ 18+ ONLY ✦ SHOP OPEN ✦ METALHEAD PRINCESS ONLINE ✦
   </div>
-  
-  <main class="page">
 
-    <section class="hero">
+  <main class="page">
+    <!-- HERO -->
+    <header class="hero">
       <div class="hero-text">
         <p class="eyebrow">Welcome</p>
 
@@ -50,15 +49,12 @@
         </h1>
 
         <p class="call-name">— call me Julie.</p>
-
         <p class="hero-line">Welcome to my little corner of the Void.</p>
         <p class="hero-subline">Where heavy music meets soft obsession.</p>
-
         <p class="signature">Pretty in black. Loud by nature.</p>
-
         <p class="online-status">✦ online now</p>
 
-        <div class="tag-list">
+        <div class="tag-list" aria-label="Main tags">
           <span>🖤 metalhead</span>
           <span>🎮 gamer girl</span>
           <span>☕ coffee addict</span>
@@ -66,307 +62,279 @@
       </div>
 
       <div class="portrait-frame">
-  <video
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="auto">
-    <source src="assets/images/PDP.MP4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+        <video autoplay muted loop playsinline preload="auto">
+          <source src="assets/images/PDP.MP4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
-<div class="content-line">
+      <nav class="hero-nav" aria-label="Main navigation">
+        <a href="https://onlyfans.com/voidofarcadia" target="_blank" rel="noopener noreferrer">
+          Content Shop
+        </a>
+        <a href="https://throne.com/void_of_arcadia" target="_blank" rel="noopener noreferrer">
+          Spoil Me ♡
+        </a>
+        <a href="#gallery">Gallery</a>
+      </nav>
 
-    <span class="active">Brat</span>
+      <div class="content-line" aria-label="Content categories">
+        <span class="active">Brat</span>
+        <span class="separator">•</span>
+        <span class="active">Femdom</span>
+        <span class="separator">•</span>
+        <span class="active">Age Play</span>
+        <span class="separator">•</span>
+        <span class="active">Roleplay</span>
+        <span class="separator">•</span>
+        <span class="active">Fetish</span>
+        <span class="separator">•</span>
+        <span class="active">Customs</span>
+      </div>
 
-    <span class="separator">•</span>
-
-    <span class="active">Femdom</span>
-
-    <span class="separator">•</span>
-
-    <span class="active">Age Play</span>
-
-    <span class="separator">•</span>
-
-    <span class="active">Roleplay</span>
-
-    <span class="separator">•</span>
-
-    <span class="active">Fetish</span>
-
-    <span class="separator">•</span>
-
-    <span class="active">Customs</span>
-
-</div>
-
-<div class="telegram-cta">
-    <a href="https://t.me/voidofarcadia" target="_blank" rel="noopener noreferrer">
-        <span>✦ Looking for something custom?</span>
-        <small>Message me on Telegram.</small>
-    </a>
-</div>
-
-<nav class="hero-nav">
-  <a href="https://onlyfans.com/voidofarcadia" target="_blank" rel="noopener noreferrer">
-    Content Shop
-</a>
-  <a href="https://throne.com/void_of_arcadia" target="_blank" rel="noopener noreferrer">
-        Spoil Me ♡
-    </a>
-    <a href="#gallery">Gallery</a>
-</nav>
-    </section>
+      <div class="telegram-cta">
+        <a href="https://t.me/voidofarcadia" target="_blank" rel="noopener noreferrer">
+          <span>✦ Looking for something custom?</span>
+          <small>Message me on Telegram.</small>
+        </a>
+      </div>
+    </header>
 
     <section class="age-warning">
-  +18 only — no minors allowed.
-</section>
+      +18 only — no minors allowed.
+    </section>
 
-<section class="dashboard">
+    <!-- DASHBOARD -->
+    <section class="dashboard" aria-label="Current mood dashboard">
+      <article class="panel mood-panel">
+        <div class="panel-header">Current Mood</div>
 
-  <article class="panel mood-panel">
-    <div class="panel-header">Current Mood</div>
+        <div class="panel-content">
+          <p class="section-intro">A little update from the Void.</p>
 
-    <div class="panel-content">
-      <p class="section-intro">A little update from the Void.</p>
+          <div class="mood-list">
+            <div class="mood-item">
+              <span>Listening</span>
+              <strong>Sleep Token</strong>
+            </div>
 
-      <div class="mood-list">
-        <div class="mood-item">
-          <span>Listening</span>
-          <strong>Sleep Token</strong>
+            <div class="mood-item">
+              <span>Drinking</span>
+              <strong>Iced coffee</strong>
+            </div>
+
+            <div class="mood-item">
+              <span>Playing</span>
+              <strong>League of Legend</strong>
+            </div>
+
+            <div class="mood-item">
+              <span>Current mood</span>
+              <strong>Spoiled.</strong>
+            </div>
+          </div>
         </div>
+      </article>
 
-        <div class="mood-item">
-          <span>Drinking</span>
-          <strong>Iced coffee</strong>
+      <article class="panel stats-panel">
+        <div class="panel-header">Mood Stats</div>
+
+        <div class="status-list">
+          <div>
+            <span>Tease Factory</span>
+            <div class="bar"><span style="width:80%"></span></div>
+          </div>
+
+          <div>
+            <span>Coffee Addiction</span>
+            <div class="bar"><span style="width:95%"></span></div>
+          </div>
+
+          <div>
+            <span>Angel Energy Level</span>
+            <div class="bar"><span style="width:30%"></span></div>
+          </div>
+
+          <div>
+            <span>Spoiled Girl</span>
+            <div class="bar"><span style="width:92%"></span></div>
+          </div>
+
+          <div>
+            <span>Ignoring your attention</span>
+            <div class="bar"><span style="width:100%"></span></div>
+          </div>
         </div>
+      </article>
 
-        <div class="mood-item">
-          <span>Playing</span>
-          <strong>League of Legend</strong>
+      <article class="panel playlist-panel">
+        <div class="panel-header">Playlist</div>
+
+        <p class="panel-text">
+          My current playlist &lt;3 heavy, dark, emotional and a little chaotic.
+        </p>
+
+        <div class="spotify-player">
+          <iframe
+            style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/5ngXrhkCPc4Lo2xUc4wAb2?utm_source=generator&theme=0&si=b8b03e64f0634dab"
+            width="100%"
+            height="352"
+            frameborder="0"
+            allowfullscreen
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+          </iframe>
         </div>
+      </article>
+    </section>
 
-        <div class="mood-item">
-          <span>Current mood</span>
-          <strong>Spoiled.</strong>
+    <!-- ABOUT -->
+    <section class="panel about-panel">
+      <div class="panel-header">About Julie</div>
+
+      <div class="panel-content">
+        <p class="section-intro">A little about me.</p>
+
+        <h2 class="about-title">Hi, I'm Julie.</h2>
+
+        <p class="about-text">
+          Metalhead. Musician. Coffee addict. A little spoiled, a little teasing,
+          and always happy to steal your attention.
+        </p>
+
+        <p class="about-text">
+          If you enjoy dark aesthetics, playful conversations and getting to know
+          someone beyond the photos... you might feel at home here.
+        </p>
+      </div>
+    </section>
+
+    <!-- OFFERING -->
+    <section class="panel offering-panel" id="offering">
+      <div class="panel-header">The Offering</div>
+
+      <div class="panel-content">
+        <p class="section-intro">Feeling generous? I tend to notice that. ♡</p>
+
+        <div class="offering-menu">
+          <a href="https://paypal.me/Voidofarcadia" target="_blank" rel="noopener noreferrer">
+            <span>🖤 Send Love</span>
+            <strong>A little tip to brighten my day.</strong>
+          </a>
+
+          <a href="https://throne.com/void_of_arcadia" target="_blank" rel="noopener noreferrer">
+            <span>🖤 Spoil Me</span>
+            <strong>Wishlist, treats & little luxuries.</strong>
+          </a>
         </div>
       </div>
-    </div>
-  </article>
+    </section>
 
-  <article class="panel stats-panel">
-    <div class="panel-header">Mood Stats</div>
+    <!-- SHOP -->
+    <section class="panel shop-panel" id="shop">
+      <div class="panel-header">Shop</div>
 
-  <div class="status-list">
-
-  <div>
-    <span>Tease Factory</span>
-    <div class="bar"><span style="width:80%"></span></div>
-  </div>
-
-  <div>
-    <span>Coffee Addiction</span>
-    <div class="bar"><span style="width:95%"></span></div>
-  </div>
-
-  <div>
-    <span>Angel Energy Level</span>
-    <div class="bar"><span style="width:30%"></span></div>
-  </div>
-
-  <div>
-    <span>Spoiled Girl</span>
-    <div class="bar"><span style="width:92%"></span></div>
-  </div>
-
-  <div>
-    <span>Ignoring your attention</span>
-    <div class="bar"><span style="width:100%"></span></div>
-  </div>
-  </article>
-
-  <article class="panel playlist-panel">
-    <div class="panel-header">Playlist</div>
-
-   <p class="panel-text">
-  My current playlist &lt;3 heavy, dark, emotional and a little chaotic.
-</p>
-
-    <div class="spotify-player">
-      <iframe
-        style="border-radius:12px"
-        src="https://open.spotify.com/embed/playlist/5ngXrhkCPc4Lo2xUc4wAb2?utm_source=generator&theme=0&si=b8b03e64f0634dab"
-        width="100%"
-        height="352"
-        frameborder="0"
-        allowfullscreen
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy">
-      </iframe>
-    </div>
-  </article>
-
-</section>
-
-<section class="panel about-panel">
-  <div class="panel-header">About Julie</div>
-
-  <div class="panel-content">
-    <p class="section-intro">A little about me.</p>
-
-    <h2 class="about-title">Hi, I'm Julie.</h2>
-
-    <p class="about-text">
-      Metalhead. Musician. Coffee addict. A little spoiled, a little teasing,
-      and always happy to steal your attention.
-    </p>
-
-    <p class="about-text">
-      If you enjoy dark aesthetics, playful conversations and getting to know
-      someone beyond the photos... you might feel at home here.
-    </p>
-  </div>
-</section>
-
-   <section class="panel offering-panel" id="offering">
-  <div class="panel-header">The Offering</div>
-
-  <div class="panel-content">
-    <p class="section-intro">
-      Feeling generous? I tend to notice that. ♡
-    </p>
-
-    <div class="offering-menu">
-      <a href="https://paypal.me/Voidofarcadia" target="_blank" rel="noopener noreferrer">
-        <span>🖤 Send Love</span>
-        <strong>A little tip to brighten my day.</strong>
-      </a>
-
-      <a href="https://throne.com/void_of_arcadia" target="_blank" rel="noopener noreferrer">
-    <span>🖤 Spoil Me</span>
-    <strong>Wishlist, treats & little luxuries.</strong>
-</a>
-    </div>
-  </div>
-</section>
-
- <section class="panel shop-panel" id="shop">
-
-    <div class="panel-header">
-        Shop
-    </div>
-
-<div class="shop-menu">
-
-    <a href="#" class="shop-item">
-        <div>
+      <div class="shop-menu">
+        <a href="https://onlyfans.com/voidofarcadia" target="_blank" rel="noopener noreferrer" class="shop-item">
+          <div>
             <span class="shop-id">01</span>
             <h2>Premades</h2>
-         <p>Ready when you are.</p>
-        </div>
+            <p>Ready when you are.</p>
+          </div>
+          <span class="shop-arrow">→</span>
+        </a>
 
-        <span class="shop-arrow">→</span>
-    </a>
-
-    <a href="#" class="shop-item">
-        <div>
+        <a href="https://t.me/voidofarcadia" target="_blank" rel="noopener noreferrer" class="shop-item">
+          <div>
             <span class="shop-id">02</span>
             <h2>Custom Content</h2>
-        <p>Made for your eyes only.</p>
-        </div>
+            <p>Made for your eyes only.</p>
+          </div>
+          <span class="shop-arrow">→</span>
+        </a>
 
-        <span class="shop-arrow">→</span>
-    </a>
-
-    <a href="#" class="shop-item">
-        <div>
+        <a href="https://t.me/voidofarcadia" target="_blank" rel="noopener noreferrer" class="shop-item">
+          <div>
             <span class="shop-id">03</span>
             <h2>Voice Notes</h2>
-         <p>Soft, bratty or teasing.</p>
-        </div>
+            <p>Soft, bratty or teasing.</p>
+          </div>
+          <span class="shop-arrow">→</span>
+        </a>
 
-        <span class="shop-arrow">→</span>
-    </a>
-
-    <a href="#" class="shop-item">
-        <div>
+        <a href="https://t.me/voidofarcadia" target="_blank" rel="noopener noreferrer" class="shop-item">
+          <div>
             <span class="shop-id">04</span>
             <h2>Physical Items</h2>
-       <p>Personal pieces, by request.</p>
-        </div>
+            <p>Personal pieces, by request.</p>
+          </div>
+          <span class="shop-arrow">→</span>
+        </a>
+      </div>
+    </section>
 
-        <span class="shop-arrow">→</span>
-    </a>
+    <!-- GALLERY -->
+    <section class="panel archive-panel" id="gallery">
+      <div class="panel-header">The Archive</div>
 
-</div>
+      <div class="archive-slider">
+        <img src="assets/images/gallery-01.png" alt="Julie portrait 1" loading="lazy" />
+        <img src="assets/images/gallery-02.jpg" alt="Julie portrait 2" loading="lazy" />
+        <img src="assets/images/gallery-03.jpg" alt="Julie portrait 3" loading="lazy" />
+        <img src="assets/images/gallery-04.png" alt="Julie portrait 4" loading="lazy" />
+        <img src="assets/images/gallery-05.png" alt="Julie portrait 5" loading="lazy" />
+        <img src="assets/images/gallery-06.png" alt="Julie portrait 6" loading="lazy" />
+        <img src="assets/images/gallery-07.png" alt="Julie portrait 7" loading="lazy" />
+      </div>
+    </section>
 
-</section>
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+      <img src="" alt="Expanded gallery image" />
+    </div>
 
-   <section class="panel archive-panel" id="gallery">
-  <div class="panel-header">The Archive</div>
-
-<div class="archive-slider">
-  <img src="assets/images/gallery-01.png" alt="Julie portrait 1">
-  <img src="assets/images/gallery-02.jpg" alt="Julie portrait 2">
-  <img src="assets/images/gallery-03.jpg" alt="Julie portrait 3">
-  <img src="assets/images/gallery-04.png" alt="Julie portrait 4">
-  <img src="assets/images/gallery-05.png" alt="Julie portrait 5">
-  <img src="assets/images/gallery-06.png" alt="Julie portrait 6">
-  <img src="assets/images/gallery-07.png" alt="Julie portrait 7">
-</div>
-</section>
-
-<div class="lightbox" id="lightbox">
-  <button class="lightbox-close">×</button>
-  <img src="" alt="" />
-</div>
-
-
+    <!-- LINKS -->
     <section class="panel" id="links">
       <div class="panel-header">Elsewhere</div>
 
       <div class="links-menu">
+        <a href="https://www.instagram.com/void.of.arcadia/" target="_blank" rel="noopener noreferrer">
+          <span>Instagram</span>
+          <strong>Visual diary ♡</strong>
+        </a>
 
- <a href="https://www.instagram.com/void.of.arcadia/" target="_blank" rel="noopener noreferrer">
-    <span>Instagram</span>
-    <strong>Visual diary ♡</strong>
-</a>
+        <a href="https://x.com/VoidofArcadia" target="_blank" rel="noopener noreferrer">
+          <span>X / Twitter</span>
+          <strong>Teasers & spicy updates ♡</strong>
+        </a>
 
- <a href="https://x.com/VoidofArcadia" target="_blank" rel="noopener noreferrer">
-    <span>X / Twitter</span>
-    <strong>Teasers & spicy updates ♡</strong>
-</a>
+        <a href="https://www.snapchat.com/add/voidofarcadia" target="_blank" rel="noopener noreferrer">
+          <span>Snapchat</span>
+          <strong>Private premium snaps ♡</strong>
+        </a>
 
-<a href="https://www.snapchat.com/add/voidofarcadia" target="_blank" rel="noopener noreferrer">
-    <span>Snapchat</span>
-    <strong>Private premium snaps ♡</strong>
-</a>
+        <a href="https://t.me/+NhUw_gKy7bZhNWE0" target="_blank" rel="noopener noreferrer">
+          <span>Telegram</span>
+          <strong>VIP channel ♡</strong>
+        </a>
 
- <a href="https://t.me/+NhUw_gKy7bZhNWE0" target="_blank" rel="noopener noreferrer">
-    <span>Telegram</span>
-    <strong>VIP channel ♡</strong>
-</a>
+        <a href="https://throne.com/void_of_arcadia" target="_blank" rel="noopener noreferrer">
+          <span>Throne</span>
+          <strong>Wishlist & Spoil Me ♡</strong>
+        </a>
 
- <a href="https://throne.com/void_of_arcadia" target="_blank" rel="noopener noreferrer">
-  <span>Throne</span>
-  <strong>Wishlist & Spoil Me ♡</strong>
-</a>
-
-<a href="https://onlyfans.com/voidofarcadia" target="_blank" rel="noopener noreferrer">
-    <span>OnlyFans</span>
-    <strong>Come a little closer ♡</strong>
-</a>
-
-</div>
+        <a href="https://onlyfans.com/voidofarcadia" target="_blank" rel="noopener noreferrer">
+          <span>OnlyFans</span>
+          <strong>Come a little closer ♡</strong>
+        </a>
+      </div>
     </section>
 
     <footer>
       The Void never sleeps.
     </footer>
-
   </main>
 
   <script src="script.js"></script>
