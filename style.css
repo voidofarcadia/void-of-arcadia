@@ -1107,3 +1107,50 @@ body::after {
     display: none;
   }
 }
+@media (max-width: 700px){
+
+  .hero-text{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+
+  .logo-title,
+  .call-name,
+  .hero-line,
+  .hero-subline,
+  .signature,
+  .online-status{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .tag-list{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  .portrait-frame{
+    margin:0 auto;
+  }
+
+  .hero-nav{
+    width:100%;
+  }
+
+  .hero-nav a{
+    width:100%;
+  }
+
+  .telegram-cta{
+    justify-self:center;
+    align-self:center;
+  }
+
+  .telegram-cta a{
+    margin:0 auto;
+  }
+
+}
