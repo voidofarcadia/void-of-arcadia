@@ -1288,10 +1288,27 @@ footer {
     word-break: break-word;
   }
 
-  p,
-  a {
+  p {
     font-size: clamp(1rem, 5vw, 1.4rem);
     line-height: 1.25;
+  }
+
+  .shop-item,
+  .shop-item:visited,
+  .shop-item:hover,
+  .shop-item:active {
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  .shop-item h2 {
+    color: var(--lavender);
+    text-decoration: none;
+  }
+
+  .shop-item p {
+    color: var(--chrome);
+    text-decoration: none;
   }
 
   .card,
